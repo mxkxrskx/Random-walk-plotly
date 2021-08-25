@@ -3,7 +3,7 @@ from plotly import offline
 import plotly.graph_objects as go
 
 while True:
-    times = 100
+    times = 50000
     rw = RandomWalk(times)
     rw.fill_walk()
     rw.take_first_dot()
